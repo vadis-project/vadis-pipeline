@@ -62,7 +62,29 @@
 
 This project provides an in-depth look at the main pipeline of the VADIS Project. The process initiates with the selection and crawling of datasets and publications. These documents are then preprocessed to ensure the data is clean and structured for the main tasks. The main tasks of VADIS are Variable Identification and Summarization are executed and their outputs are used to construct VADIS Data. VADIS Data is then forwarded to VADIS Demo. Details of the each process are as followed:
 
-# (External) Data Retrieval
+### (External) Data Retrieval
+
+* Publication Selection (p0): This process uses a predefined queries (config) to retrieve SSOAR publications with related research datasets from GESIS Search Index (config). Query results are saved in corpus.
+
+* Publication and Dataset Crawling (p1): For each publication in the query results, 
+
+### Preprocessing
+
+* PDF Parsing
+
+* Text Processing
+
+### VADIS Tasks
+
+* Summarization
+
+* Variable Identification
+
+### Output - VADIS Data
+
+* Merge and Format
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
