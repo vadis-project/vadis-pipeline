@@ -66,7 +66,7 @@ This project provides an in-depth look at the main pipeline of the VADIS Project
 
 * Publication Selection (p0): This process uses a predefined queries (config) to retrieve SSOAR publications with related research datasets from GESIS Search Index (config). Query results are saved in corpus.
 
-* Publication and Dataset Crawling (p1): For each publication in the query results, 
+* Dataset Crawling (p1): For each publication in the query results, it sends POST request for each related research dataset and its survey variables and crawls them if they are available on the GESIS Search Index.
 
 ### Preprocessing
 
@@ -76,7 +76,7 @@ This project provides an in-depth look at the main pipeline of the VADIS Project
 
 ### VADIS Tasks
 
-* Summarization
+* Summarization: https://github.com/vadis-project/vadis_summarization_api 
 
 * Variable Identification
 
