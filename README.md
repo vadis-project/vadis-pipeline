@@ -58,6 +58,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/vadis-project/vadis-pipeline/blob/main/readme/pipeline.png)
+![VADIS Pipeline]([https://github.com/vadis-project/sv-ident/blob/main/example.png](https://github.com/vadis-project/vadis-pipeline/blob/main/readme/pipeline.png))
 
 - Provide a brief and exact description of the method clearly mentioning its purpose i.e., what it does in non-technical terms. The focus should be to emphasize on the functionality and get non-technical users interested as well as in a position to understand what the method is doing. Write a sentence about the input and output format of the data and DBD datasets that the method can work with. Writing about noteworthy features of the method. It can be structured as:
 - 1 or 2 sentences on highlighting the functionality of the method to get non-technical users interested in the method
