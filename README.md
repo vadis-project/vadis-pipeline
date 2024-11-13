@@ -101,11 +101,10 @@ TODO: describe prerequisites
 
 ### Installation
 
-TODO: describe installation instructions
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/vadis-project/vadis-pipeline.git
    ```
 2. Create and activate a virtual environment
    ```sh
