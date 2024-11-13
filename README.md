@@ -57,19 +57,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/vadis-project/vadis-pipeline/blob/main/readme/pipeline.png)
 ![VADIS Pipeline](https://github.com/vadis-project/vadis-pipeline/blob/main/readme/pipeline.png)
 
-- Provide a brief and exact description of the method clearly mentioning its purpose i.e., what it does in non-technical terms. The focus should be to emphasize on the functionality and get non-technical users interested as well as in a position to understand what the method is doing. Write a sentence about the input and output format of the data and DBD datasets that the method can work with. Writing about noteworthy features of the method. It can be structured as:
-- 1 or 2 sentences on highlighting the functionality of the method to get non-technical users interested in the method
-- A sentence about the input and output format of the method
-- A sentence on the noteworthy functionality of the method
-- A sentence about the demo example with sample input and output used with the method
-- A sentence mentioning (and adding links to) relevant resources that the method uses or works with. The social science papers using the method or similar methods can also be cited to highlight its importance.
 
-For example,
-An easy-to-use method for continuously collecting data from the 4Chan social media platform. It collects all textual data (in JSON format) along with its metadata from all 4Chan discussion boards (live and archived ones), possibly updating every sec (recommended 10 sec).  The platform is popular as incubator for memes, viral content and political activism, and is known to have explicit, hateful and racist content across diverse topics. Users are mostly anonymous and threads comparably shortlived and focused on trending/recent issues. 
+This project provides an in-depth look at the main pipeline of the VADIS Project. The process initiates with the selection and crawling of datasets and publications. These documents are then preprocessed to ensure the data is clean and structured for the main tasks. The main tasks of VADIS are Variable Identification and Summarization are executed and their outputs are used to construct VADIS Data. VADIS Data is then forwarded to VADIS Demo. Details of the each process are as followed:
 
+# (External) Data Retrieval
 
 <!-- GETTING STARTED -->
 ## Getting Started
