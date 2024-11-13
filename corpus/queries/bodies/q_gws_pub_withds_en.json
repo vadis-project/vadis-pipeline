@@ -1,0 +1,29 @@
+{
+    "size": 10000,
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "data_source": "GESIS-SSOAR"
+                    }
+                },
+                {
+                    "match": {
+                        "coreLanguage": "en"
+                    }
+                },
+                {
+                    "exists": {
+                        "field": "related_research_data"
+                    }
+                },
+                {
+                    "match": {
+                        "type": "publication"
+                    }
+                }
+            ]
+        }
+    }
+}

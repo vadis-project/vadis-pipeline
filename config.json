@@ -1,0 +1,49 @@
+{
+    "logger": "vadis_pipeline.log",
+    "languages": ["en", "de"],
+    "urls": {
+        "gesis_search": "https://search.gesis.org/searchengine?scroll=1m",
+        "gesis_search_scroll": "http://search.gesis.org:9200/_search/scroll",
+
+        "gesis_search_query": "http://searchtest.gesis.org/searchengine?q=_id:"
+    },
+    "query_type": "gws_ssoar",
+    "queries": {
+        "gws_ssoar_withds": {
+            "en": {
+                "body": "corpus/queries/bodies/q_gws_pub_withds_en.json",
+                "result": "corpus/queries/results/r_gws_pub_withds_en.json"
+            },
+            "de": {
+                "body": "corpus/queries/bodies/q_gws_pub_withds_de.json",
+                "result": "corpus/queries/results/r_gws_pub_withds_de.json"
+            }
+        },
+        "gws_ssoar": {
+            "all": {
+                "body": "corpus/queries/bodies/q_gws_pub_ssoar_all.json",
+                "result": "corpus/queries/results/r_gws_pub_ssoar_all.json"
+            },
+            "en": {
+                "body": "corpus/queries/bodies/q_gws_pub_ssoar_en.json",
+                "result": "corpus/queries/results/r_gws_pub_ssoar_en.json"
+            },
+            "de": {
+                "body": "corpus/queries/bodies/q_gws_pub_ssoar_de.json",
+                "result": "corpus/queries/results/r_gws_pub_ssoar_de.json"
+            }
+        }
+    },
+    "doc_types": ["Zeitschriftenartikel", "Arbeitspapier", "Konferenzbeitrag", "Rezension", "Dissertation", "Forschungsbericht"],
+    "grobid": {
+        "config_path": "./grobid_client_python/config.json",
+        "process_type": "processFulltextDocument"
+    },
+    "corpus_paths": {
+        "pdf_raw": "corpus/pdf_raw",
+        "json_raw": "corpus/json_raw",
+        "json_text": "corpus/json_text",
+        "filtered_json_text": "corpus/filtered_json_text"
+    }
+
+}

@@ -1,0 +1,18 @@
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "data_source": "GESIS-SSOAR"
+                    }
+                },
+                {
+                    "match": {
+                        "type": "publication"
+                    }
+                }
+            ]
+        }
+    }
+}
