@@ -134,18 +134,24 @@ TODO: add roadmap if it applies
 <!-- LICENSE -->
 ## License
 
-TODO: add license. See `LICENSE` for more information.
+See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
 
-TODO: add contact info
-
-Your Name - email@example.com
+Yavuz Selim Kartal - yavuzselim.kartal@gesis.org
 
 ## Citation
-TODO: add bibtex citation if it applies
-
+```bibtex
+@misc{kartal2023vadis,
+      title={VADIS -- a VAriable Detection, Interlinking and Summarization system}, 
+      author={Yavuz Selim Kartal and Muhammad Ahsan Shahid and Sotaro Takeshita and Tornike Tsereteli and Andrea Zielinski and Benjamin Zapilko and Philipp Mayr},
+      year={2023},
+      eprint={2312.13423},
+      archivePrefix={arXiv},
+      primaryClass={cs.DL}
+}
+```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
