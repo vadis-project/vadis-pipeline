@@ -68,21 +68,23 @@ This project provides an in-depth look at the main pipeline of the VADIS Project
 
 * Dataset Crawling (p1): For each publication in the query results, it sends POST request for each related research dataset and its survey variables and crawls them if they are available on the GESIS Search Index.
 
+* Publication Crawling (p1): This process crawl the SSOAR website and reaches PDF file of all publications if they have at least one downloaded research dataset. Also, only the publications which have available file on the SSOAR server are downloaded, not the ones with exernal PDF availability.
+
 ### Preprocessing
 
-* PDF Parsing
+* PDF Parsing (p3): Using the GROBID server running on server (see config file), full text in JSON format of all downloaded PDF files of SSOAR publications are extracted.
 
-* Text Processing
+* Text Processing (p4): JSON full texts are processed and there are splitted into sentences.
 
 ### VADIS Tasks
 
-* Summarization: https://github.com/vadis-project/vadis_summarization_api 
+* Summarization (p6_sum): https://github.com/vadis-project/vadis_summarization_api 
 
-* Variable Identification
+* Variable Identification: This task is handled with two main methodology. The first one uses fuzzy search for variable matchings in the full text (p6_sm). The second one features supervised and unsupervised methods for variable identification (p6_auto_pre, p6_auto) https://github.com/vadis-project/sv-ident.  
 
 ### Output - VADIS Data
 
-* Merge and Format
+* Merge and Format (p7): Outputs of summarization and variable identification of each pubication are merged and output data is enriched with some metadata. This results in JSON files of VADIS Data of all publications and it is ready to be inserted into VADIS Elastic Index.
 
 
 
