@@ -88,11 +88,6 @@ This project provides an in-depth look at the main pipeline of the VADIS Project
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-TODO: add details on how to use this repository
-
 ### Prerequisites
 
 TODO: describe prerequisites
@@ -119,19 +114,6 @@ TODO: describe prerequisites
    ```
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-TODO: describe how to use the tool
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-TODO: add roadmap if it applies
-
-- [ ] Feature 1
-- [ ] Feature 2
 
 <!-- LICENSE -->
 ## License
